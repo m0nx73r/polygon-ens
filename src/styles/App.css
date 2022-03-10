@@ -11,7 +11,7 @@ p {
 
 .container {
   height: 100%;
-  background-color: #181818;
+  background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -92,19 +92,19 @@ header{
 .connect-wallet-button {
   background-image: linear-gradient(
     to right,
-    #ff8177 0%,
-    #ff867a 0%,
-    #ff8c7f 21%,
-    #f99185 52%,
-    #cf556c 78%,
-    #b12a5b 100%
+    #00857c 0%,
+    #00705e 0%,
+    #005c56 21%,
+    #00946f 52%,
+    #005c56 78%,
+    #003d39 100%
   );
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  background: -webkit-linear-gradient(left, #81FBB8, #28C76F);
   font-size: 18px;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
@@ -114,8 +114,8 @@ header{
 }
 
 .mint-button:disabled{
-  background: #550072;
-  color: rgb(209, 209, 209);
+  background: #ffffff;
+  color: #ffffff;
   cursor: not-allowed;
 }
 
@@ -180,7 +180,7 @@ input{
 }
 
 input::placeholder {
-  color: gray;
+  color: #ffffff;
   letter-spacing: 2px;
 }
 
@@ -228,7 +228,7 @@ input:focus {
   border-radius: 5px;
   margin: 10px 15px;
   font-size: 18px;
-  background-color: #c4b7fa;
+  background-color: #7f45df;
   color: black;
   min-width: 150px;
   max-width: fit-content;
